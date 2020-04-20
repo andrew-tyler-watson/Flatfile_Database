@@ -1,0 +1,33 @@
+{
+    "ID": {
+        "type": "int",
+        "required": true,
+        "identifier": "auto-increment"
+    },
+    "firstName": {
+        "type": "string",
+        "required": true
+    },
+    "lastName":{
+        "type": "string",
+        "required": true
+    },
+    "major": {
+        "type": "string",
+        "required": true
+    },
+    "age":{
+        "type": "int",
+        "required": true
+    },
+    "balance":{
+        "type": "float",
+        "required": true
+    },
+    "eyeColor":{
+        "type": "string",
+        "required": false
+    }
+
+
+}
